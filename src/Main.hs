@@ -14,6 +14,6 @@ instance Options MainOptions where
 main :: IO ()
 main = runCommand $ \opts args -> do
   let file = optFile opts in
-    if file == ""
+    if file /= ""
        then putStrLn file
        else putStrLn "failed"
