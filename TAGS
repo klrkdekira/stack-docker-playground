@@ -1,0 +1,12 @@
+
+./Setup.hs,15
+main main1,2
+
+./src/Main.hs,186
+module Main Main0,1
+data MainOptions MainOptions6,7
+data MainOptions = MainOptionsMainOptions6,7
+  { optFile optFile7,8
+instance instance9,10
+main main13,14
+main main14,15
